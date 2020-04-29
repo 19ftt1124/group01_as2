@@ -13,8 +13,43 @@
        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
      <![endif]-->
+    <style>
+        .Contact{
+			padding: 5% 10%;
+			text-align: center;
+		}
+
+		.form_input{
+			margin-bottom: 15px;
+
+		}
+
+		.form_input input[type="text"]{
+			width: 250px;
+			padding: 12px 20px;
+			border: 1px solid #ccc;
+
+		}  
+
+		.form_input textarea{
+			width: 250px;
+			padding: 12px 20px;
+			height: 80px;
+		}
+
+		.btn a{
+			display: block;
+			width: 180px;
+			height: 35px;
+			border: 2px solid #fb2274;
+			line-height: 35px;
+			margin:0 auto;
+			color: #fb2274;
+			text-align: center;
+		}
+    </style>
 </head>
-<body>
+<body bgcolor= "#FFD3EF">
         <!-- navigation bar -->
 
         <nav>
@@ -53,11 +88,22 @@
                 One of three columns
               </div>
               <div class="col-sm">
-                One of three columns
+                Description / Memo
               </div>
-              <div class="col-sm">
-                One of three columns
-              </div>
+              <div class="Contact" id="Contact">
+	<h1>Contact Us</h1>
+             <div class="form_wrapper">
+		<div class="form_input">
+		<input type="text" placeholder="Email">
+	    </div>
+	      <div class="form_input">
+		  <input type="text" placeholder="subject">
+	      </div>
+	        <div class="form_input">
+		    <textarea placeholder="Message"></textarea>
+	        </div>
+	<div class="btn">
+		<a href="#">Submit</a>
             </div>
           </div>
     
